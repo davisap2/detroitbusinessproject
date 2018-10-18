@@ -1,0 +1,26 @@
+#header{
+  width: 100vw;
+  height: 20%;
+  background-color: #FF8552;
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+#title{
+  height:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#main_site_title{
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.left{
+  margin-left: 2vw;
+}
