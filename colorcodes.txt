@@ -1,0 +1,32 @@
+COLOR CODES:
+
+Detroit Tigers:
+#062343 - rgb(6, 35, 67) (blue)
+#FC4614 - rgb(252, 70, 20) (orange)
+
+Detroit Lions:
+#046EB4 - rgb(4, 110, 180) (blue)
+#B0B7BC - rgb(176, 183, 188) (grey)
+#000000 - rgb(0, 0, 0) (black)
+
+Detroit Pistons:
+#ED174C - rgb(237, 23, 76) (pinkish red)
+#0067B1 - rgb(0, 103, 177) (light blue)
+#002D62 - rgb(0, 45, 98) (Dark blue)
+
+Detroit Red Wings:
+#C8102E - rgb(200, 16, 46) (red)
+#FFFFFF - rgb(255, 255, 255) (white)
+
+Ford:
+#004377 - rgb(0, 67, 119) (blue)
+#FFFFFF - rgb(255, 255, 255) (white)
+
+Chrysler:
+#B8B9BD - rgb(184, 185, 189) (grey)
+#FFFFFF - rgb(255, 255, 255) (white)
+#000000 - rgb(0, 0, 0) (black)
+
+GM:
+#0E3E92 - rgb(14, 62, 146) (blue)
+#FFFFFF - rgb(255, 255, 255) (white)

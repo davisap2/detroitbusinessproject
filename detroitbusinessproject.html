@@ -1,24 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title></title>
+<title>Detroit Business Project</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="detroitbusinessproject.css">
 </head>
 <body>
-  <div id="header">
-    <div id="title" class="left">
-      <h1 id="main_site_title">Detroit<br>Business<br>Project</h1>
+  <div id="full_body_container">
+    <div id="header">
+      <div id="title" class="left">
+        <h1 id="main_site_title"><span class="title_first_letter">D</span>etroit<br><span class="title_first_letter">B</span>usiness<br><span class="title_first_letter">P</span>roject</h1>
+      </div>
     </div>
-  </div>
-  <div id="main">
-  </div>
-  <div id="left">
-  </div>
-  <div id="right">
-  </div>
-  <div id="footer">
+    <div id="main">
+      <div id="left">
+      </div>
+      <div id="middle">
+        <div id="landing_introduction">
+          <h1 id="middle_title"><strong>Welcome to our home town.</strong></h1>
+          <p id="intro">This is a business directory made by Detroiters, for Detroiters.<br>
+            Its purpose is to shed light on some of the lesser-known businesses in our area,<br>
+            allowing them to catch some time in the spotlight they might not otherwise be able to obtain.<br>
+            Feel free to browse our collection via the Categories menu above,<br>
+            or you may search for a business below.
+          </p>
+        </div>
+        <div id="search_or_apply">
+          <div id="search">
+            <h2><strong>Find a Business</strong></h2>
+            <p>Enter the name of the business below.</p>
+            <form action="" id="searchform">
+              <input type="text" id="searchbox">
+              <button id="submit_search">Submit</button>
+            </form>
+          </div>
+          <div id="apply">
+            <h2>Want your business featured?</h2>
+            <p>Tell us about your business <br>by filling out the information below.</p>
+            <form action="" id="application_form">
+              <div class="business_app_row">
+                <div class="application_field_left">
+                  <p class="business_field_label">Business Name</p><input type="text" class="business_field" id>
+                </div>
+                <div class="application_field_right">
+                  <p class="business_field_label">Category</p><select id="category_select" class="business_field"><option value="Other">Other</option></select>
+                </div>
+              </div>
+              <div class="business_app_row">
+                <div class="application_field_left">
+                  <p>Is your business in the city of Detroit?</p>
+                  <div id="Y_N_radio_buttons">
+                    <p class="radio_text">Y</p><input class="radio" type="radio" value="Y"><p class="radio_text"> N</p><input class="radio" type="radio" value="N">
+                  </div>
+                </div>
+                <div class="application_field_right">
+                  <p>If not, please specify:</p>
+                  <input type="text" id="other_specified_city" class="business_field">
+                </div>
+              </div>
+              <div class="business_app_row">
+                <div class="application_field_left">
+                  <h3>Owner's Information:</h3>
+                </div>
+              </div>
+              <div class="business_app_row">
+                  <p class="business_field_label">Name:</p>
+                  <input type="text" class="business_field owner_info" id="owner_name">
+              </div>
+              <div class="business_app_row">
+                <p class="business_field_label">Email:</p>
+                <input type="text" class="business_field owner_info" id="owner_email">
+              </div>
+              <div class="business_app_row">
+                <p class="business_field_label">Phone:</p>
+                <input type="text" class="business_field owner_info" id="owner_phone">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="right">
+      </div>
+    </div>
+    <div id="footer">
+    </div>
   </div>
 </body>
 </html>
