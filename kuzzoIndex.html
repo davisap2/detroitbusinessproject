@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Technology Phase 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="kuzzoStyle.css" />
+    <script src="kuzzosFunctions.js"></script>
+</head>
+<body>
+    <div class="infoTabs">
+        <button id = "selectedHome" class="active tabs" onclick="loadArea('home')">Home</button>
+        <button id = "selectedAbout" class="tabs" onclick="loadArea('about')">About us</button>
+        <button id = "selectedContact" class="tabs" onclick="loadArea('contact')">Contact us</button>
+	<button id = "selectedMenu" class="tabs" onclick="loadArea('menu')">Menu</button>
+    </div>
+    
+    <div id = "home" style="text-align: center">
+        
+        <h1 >Home</h1>
+        
+        <hr />
+        <p>Welcome to the website for Kuzzo&apos;s Chicken and Waffles
+           We are located at 19345 Livernois Ave., Detroit, MI 48221
+           
+        </p>
+
+        <div id = "pictures">
+            <div>
+                <img src="19331 Livernois.jpg" alt="Kuzzo's Chicken & Waffles" height = "50%" width = "50%">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about" style="display:none">
+        <h1 style = "text-align:center">About us</h1>
+        <hr/>
+        <p>We are a a Restaurant offering many different specialities and takes on home classics.
+	<br/>We have food including southern classics and breakfast. And we offer a full bar.
+        </p>
+    </div>
+    
+    
+    <div id="contact" style="display:none">
+        <h1 style = "text-align:center">Contact us</h1>
+        <hr/>
+	<p>Our Hours are:</p>
+	<table border = "1" align = "center">
+	<tr>
+	<th>Monday</th>
+	<th>Tuesday</th>
+	<th>Wednesday</th>
+	<th>Thursday</th>
+	<th>Friday</th>
+	<th>Saturday</th>
+	<th>Sunday</th>
+	</tr>
+	<tr>
+	<td>Closed</td>
+	<td>8am &ndash; 9pm</td>
+	<td>8am &ndash; 9pm</td>
+	<td>8am &ndash; 9pm</td>
+	<td>8am &ndash; 10pm</td>
+	<td>8am &ndash; 10pm</td>
+	<td>8am &ndash; 6pm</td>
+	</tr>
+	</table>
+        <p>Our number is <strong>(313)-861-0229</strong><br/>
+	<br>Other ways you can contact us are:
+	<ul>
+	<li><a href = "https://kuzzoschickenandwaffles.com/" target="_blank">Our Website</a></li>
+	<li><a href = "https://www.facebook.com/Kuzzos-Chicken-Waffles-816008108486745/ target="_blank">Our Facebook</a></li>
+	<li><a href = "https://www.instagram.com/kuzzoschickenandwaffles/?hl=en" target ="_blank">Our Instagram</a></li>
+	</p>
+    </div>
+
+    <div id = "menu" style = "display:none">
+      <h1 style = "text-align:center">Menu</h1>
+      <hr />
+ 
+<table border = "1" align = "center">
+<tr>
+<th>Item</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>Waffle combos</td><td> $6-$15</td>
+</tr><tr>
+<td>Southern Comforts</td><td>$10-$15</td>
+</tr><tr>
+<td>Breakfast combos</td><td>$4-$13</td>
+</tr><tr>
+<td>Omelets</td><td> $7-$9
+</tr><tr>
+<td>Sandwiches</td><td>$9-$10</td>
+</tr><tr>
+<td>Salads</td><td>$4-$11</td>
+</tr><tr>
+<td>Finger foods</td><td> $6-$8</td>
+</tr>
+</table>
+
+</div>
+
+</body>
+</html>
