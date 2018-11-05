@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   width:100vw;
-  height:80vh;
+  min-height:80vh;
 }
 body{
   margin: 0;
@@ -44,14 +44,17 @@ body{
 .left{
   margin-left: 2vw;
 }
+.right{
+  margin-right: 2vw;
+}
 .title_first_letter{
   color: white;
   font-size: 125%;
   text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
-#middle{
+.middle{
   width: 60vw;
-  height:80vh;
+  height:auto;
   background-color: #f2f2f2;
   text-align: center;
 }
@@ -123,7 +126,7 @@ body{
 .slideshow{
   position:relative;
   margin:auto;
-  max-width: 1000px;
+  max-width: 500px;
 }
 .slide{
   display:none;
