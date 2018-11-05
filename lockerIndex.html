@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Technology Phase 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="lockerStyle.css" />
+    <script src="lockerFunctions.js"></script>
+</head>
+<body>
+    <div class="infoTabs">
+        <button id = "selectedHome" class="active tabs" onclick="loadArea('home')">Home</button>
+        <button id = "selectedAbout" class="tabs" onclick="loadArea('about')">About us</button>
+        <button id = "selectedContact" class="tabs" onclick="loadArea('contact')">Contact us</button>
+    </div>
+    
+    <div id = "home" style="text-align: center">
+        
+        <h1 >Home</h1>
+        
+        <hr />
+        <p>Welcome to the website for Locker Room Lounge
+           We are located at 18290 Livernois Ave, Detroit, MI 48221
+           
+        </p>
+
+        <div id = "pictures">
+            <div>
+                <img src="LockerRoom.jpg" alt="Locker Room Lounge">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about" style="display:none">
+        <h1>About us</h1>
+        <hr/>
+        <p>We are terrific place for chilling after a long, hard day. Come along or bring some friends, the party does not stop at Locker Room
+        </p>
+    </div>
+    
+    
+    <div id="contact" style="display:none">
+        <h1>Contact us</h1>
+        <hr/>
+	<p> Some people who you can contact regardding are :
+	<ul>
+	<li> Manager: Jason</li>
+	<li>Owner:Angela Vincent</li>
+	</ul></p>
+
+        <p>Our number is <strong>(313)864-1220</strong><br/></p>
+    </div>
+
+
+</body>
+</html>

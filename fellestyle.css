@@ -1,0 +1,22 @@
+.infoTabs {
+    list-style-type: none;
+    background-color: #004990;
+    overflow: hidden;
+}
+.infoTabs button{
+    background: none;
+    border: none;
+    color: white;
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+.infoTabs button:hover {
+    background-color: #002248;
+}
+.active {
+    background-color: #7fa1c7 !important;
+}
+#pictures {
+    column-count: 3;
+}
