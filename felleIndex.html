@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Technology Phase 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="fellestyle.css" />
+    <script src="felleFunctions.js"></script>
+</head>
+<body>
+    <div class="infoTabs">
+        <!-- <img src="FelleLogo.jpg" alt="Felle Logo" height="50"> -->
+        <button id = "selectedHome" class="active tabs" onclick="loadArea('home')">Home</button>
+        <button id = "selectedAbout" class="tabs" onclick="loadArea('about')">About us</button>
+        <button id = "selectedContact" class="tabs" onclick="loadArea('contact')">Contact us</button>
+    </div>
+    
+    <div id = "home" style="text-align: center">
+        
+        <h1 >Home</h1>
+        
+        <hr />
+        <p>Welcome to the website for Fel'le Gallery.
+           We are located at 19926 Livernois Ave., Detroit, MI 48221
+           
+        </p>
+
+        <div id = "pictures">
+            <div>
+                <img src="FelleGallery1.jpg" height = '33%' width = '33%' alt="Felle Gallery Art Photo 1">
+            </div>
+
+            <div>
+                <img src="FelleGallery2.jpg" height = '33%' width = '33%' alt="Felle Gallery Art Photo 2" /> 
+                <br/>
+                <p>We are located just north of 7 mile at Livernois and Pemboke avenue.</p>
+            </div>
+
+            <div>
+                <img src="FelleGallery6.jpg" height = '33%' width = '33%' alt="Felle Gallery Art Photo 3">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="about" style="display:none">
+        <h1>About us</h1>
+        <hr/>
+        <p>
+	     This is the home of nationally known artist Fel'le.
+             We specalize in various types of art.
+             Some of the art that we specalize in is: 
+             <ul>
+                <li>Automotive Art</li>
+                <li>Body Paint</li>
+                <li>Paint Parties</li>
+                <li>Photo Backdrops</li>
+             </ul>
+             <br/>
+             For more information, please see our contact section and contact us directly.
+        </p>
+    </div>
+    
+    
+    <div id="contact" style="display:none">
+        <h1>Contact us</h1>
+        <hr/>
+        <p>Our number is <strong>(313) 415-6308</strong><br/>
+        Some other ways to contact us are:
+        <ul>
+            <li>Our <a href = "https://www.facebook.com/TheFelleGallery/" target="_blank">Facebook page</a><br/></li>
+            <li>Our <a href = "https://www.instagram.com/thefellegallery/?hl=en" target="_blank">Instagram page</a> <br/></li>
+            <li>Main <a href = "https://www.thefellegallery.com/" target="_blank">website</a></li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
